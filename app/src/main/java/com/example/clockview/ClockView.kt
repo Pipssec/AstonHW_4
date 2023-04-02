@@ -130,7 +130,7 @@ class ClockView @JvmOverloads constructor(
 
     private fun drawCenter(canvas: Canvas) {
         paint.style = Paint.Style.FILL
-        paint.let { 
+        paint.let {
             canvas.drawCircle((myWidth / 2).toFloat(),
             (myHeight / 2).toFloat(), 12F, it)
         }
